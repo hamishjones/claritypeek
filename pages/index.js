@@ -1,10 +1,12 @@
-    // pages/index.js
+// pages/index.js
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-4 py-10 text-center bg-gray-100">
       <h1 className="text-4xl font-bold mb-4">🔍 Welcome to ClarityPeek</h1>
-      <p className="text-lg text-gray-700 mb-8">
+      <p className="text-lg text-gray-700 mb-8 max-w-xl">
         A lightweight, smart contract-focused block explorer for the Stacks blockchain.
+        Dive into recent blocks, contracts, and transactions – built by and for devs.
       </p>
       <div className="flex flex-col gap-4">
         <a
